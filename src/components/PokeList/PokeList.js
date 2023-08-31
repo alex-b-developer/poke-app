@@ -21,11 +21,8 @@ useEffect(() => {
 
 }, []);
   
-   const results = pokemonData.map((element, i) =>
-   <>
-        {console.log(i)}
+    const results = pokemonData.map((element, i) =>
         <ContainerCard key={i} pokemon={element}/>
-        </>
     );
 
     return(

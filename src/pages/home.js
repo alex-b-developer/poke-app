@@ -5,8 +5,10 @@ export default function Home() {
 
     return(
         <div className="App">
-        <Header />
-        <div><PokeList/> </div>
+            <Header />
+            <div>
+                <PokeList/> 
+            </div>
         </div>
     )
 }
