@@ -8,7 +8,7 @@ export default function ContainerCard(props) {
             <div className="list-group">
                 <h2>{props.pokemon.name}</h2>
                 <p>POKEMON # {parseInt(urlSplited[6])}</p>
-                <a className="btn btn-sm" href={"/detail?id=" + urlSplited[6]}> VIEW DETAILS </a>   
+                <a className="btn btn-sm btn-dark" href={"/detail?id=" + urlSplited[6]}> VIEW DETAILS </a>   
             </div>
             <br />
         </div>

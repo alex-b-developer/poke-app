@@ -29,8 +29,10 @@ useEffect(() => {
     );
 
     return(
-        <div className="row">
-            {results}
+        <div className="container">
+            <div className="row">
+                {results}
+            </div>
         </div>
     )
 }
