@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Header } from '../components/header/header';
 
 export default function Detail() {
 
@@ -26,7 +27,10 @@ export default function Detail() {
     }, []);
 
     return(
-        <div className="container">
+        <>
+
+<Header />
+<div className="container">
             <div className="card">
             {console.log(pokemonDetail)}
 
@@ -44,5 +48,8 @@ export default function Detail() {
 
         </div>
         </div>
+        
+        </>
+        
     )
 }
